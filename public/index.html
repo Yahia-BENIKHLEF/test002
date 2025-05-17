@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="hi">Bienvenue chez AUDI</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <header class="header">
+
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="/index.html" class="logo"> <span>au</span>di </a>
+
+        <nav class="navbar">
+            <a href="#vehicules" id="no">nouveautés</a>
+            <a href="#A">modèles</a>
+            <a href="#services">services</a>
+            <a href="#B">pièces</a>
+            <a href="#" id="co">recherche</a>
+
+        </nav>
+
+        <div id="login-btn">
+             <button class="btn" id="con">connecter</button>
+            <i class="fas fa-user"></i> 
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3 id="conn">connection</h3>
+            <input type="email" placeholder="email" class="box" required>
+            <input type="password" placeholder="password" class="box" required>
+            <!-- <p id="mot">mot de pass oublié <a href="#">cliquez ici</a></p> -->
+            <a href="/index2.html"><input type="submit" value="connection" class="btn"></a>
+            <!-- <p id="ou">ou connectez vous avec</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div> -->
+            <p><a href="creer-compte.html" id="cr">créer un compte</a></p>
+        </form> 
+
+    </div>
+
+    <section class="home" id="home">
+
+        <h1 class="home-parallax"><span class="bien" id="hello">Bienvenue Chez</span><span> Audi</span></h1>
+        <img class="home-parallax1" src="/img2.jpg" alt="">
+        <!-- <img class="home-parallax2" src="/img4.jpg" alt=""> -->
+
+    </section>
+
+
+    <!-- <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="conten">
+                <h3>10</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="conten">
+                <h3>477+</h3>
+                <p>vehicules vendues</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="conten">
+                <h3>245+</h3>
+                <p>clients satisfaits</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="conten">
+                <h3>50</h3>
+                <p>nouveaux modèles</p>
+            </div>
+        </div>
+
+    </section> -->
+
+    <section class="vehicules" id="vehicules">
+
+        <h1 class="heading" id="nm">Nouveaux Modèles</h1>
+
+        <div class="swiper vehicules-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a3c.jpg" alt="">
+                    <div class="conten">
+                        <h3><span id="a3">La nouvelle</span> A3</h3>
+                        <div class="prix"> <span id="pr">prix: </span> 6000000da/- </div>
+                        <p>
+                            <span class="fas fa-circle"></span> <span class="p" id="l1">nouvelle</span>
+                            <span class="fas fa-circle"></span> <span class="p" id="d1">2021</span>
+                            <span class="fas fa-circle"></span> <span class="p" id="au1">automatique</span>
+                            <span class="fas fa-circle"></span> <span class="p" id="g1">gasoil</span>
+                            <span class="fas fa-circle"></span> <span class="p" id="ch1">140chv</span>
+                        </p>
+                        <a href="a3.html" class="btn" id="vo">voir plus</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q8c.jpg" alt="">
+                    <div class="conten">
+                        <h3>La nouvelle Q8</h3>
+                        <div class="prix"> <span>prix: </span> 6000000da/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> nouvelle
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatique
+                            <span class="fas fa-circle"></span> gasoil
+                            <span class="fas fa-circle"></span> 200chv
+                        </p>
+                        <a href="#" class="btn">voir plus</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rs7c.jpg" alt="">
+                    <div class="conten">
+                        <h3>La nouvelle RS7</h3>
+                        <div class="prix"> <span>prix: </span> 6000000da/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> nouvelle
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatique
+                            <span class="fas fa-circle"></span> essence
+                            <span class="fas fa-circle"></span> 250chv
+                        </p>
+                        <a href="#" class="btn">voir plus</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rs3c.jpg" alt="">
+                    <div class="conten">
+                        <h3>La nouvelle RS3</h3>
+                        <div class="prix"> <span>prix: </span> 6000000da/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> nouvelle
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatique
+                            <span class="fas fa-circle"></span> gasoil
+                            <span class="fas fa-circle"></span> 170chv
+                        </p>
+                        <a href="#" class="btn">voir plus</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a7c.jpg" alt="">
+                    <div class="conten">
+                        <h3>La nouvelle A7</h3>
+                        <div class="prix"> <span>prix: </span> 6000000da/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> nouvelle
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatique
+                            <span class="fas fa-circle"></span> essence
+                            <span class="fas fa-circle"></span> 280chv
+                        </p>
+                        <a href="#" class="btn">voir plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <video src="/video.mp4" width="1350px" height="1080px" autoplay loop controlsList="" ></video>
+
+    <section class="A" id="A">
+        <div class="heading2">
+
+        <h1 class="heading"><span class="a" id="ga">Nos Modèles</span></h1>
+
+        <div class="swiper A-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a7cc.jpg" alt="">
+                    <h3>Audi A7</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rs3c.jpg" alt="">
+                    <h3>Audi RS3</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a1c.png" alt="">
+                    <h3>Audi A1</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rs5c.jpg" alt="">
+                    <h3>Audi RS5</h3>
+                    <div class="prix">5200000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a3bc.jpg" alt="">
+                    <h3>Audi A3 Berline</h3>
+                    <div class="prix">5200000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rs7c.jpg" alt="">
+                    <h3>Audi RS7</h3>
+                    <div class="prix">6000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a3c.jpg" alt="">
+                    <h3>Audi A3 Sportback</h3>
+                    <div class="prix">6000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rsq3c.jpg" alt="">
+                    <h3>Audi RSQ3</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a5cc.jpg" alt="">
+                    <h3>Audi A5</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/rsq8c.jpg" alt="">
+                    <h3>Audi RSQ8</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a6c.jpg" alt="">
+                    <h3>Audi A6</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/a8c.jpg" alt="">
+                    <h3>Audi A8</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="A" id="A">
+
+        <div class="heading1">
+
+        <!-- <h1 class="heading"><span class="a">La Gamme Q</span></h1> -->
+
+        <div class="swiper A-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q3c.jpg" alt="">
+                    <h3>Audi Q3</h3>
+                    <div class="prix">5200000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s4c.jpg" alt="">
+                    <h3>Audi S4</h3>
+                    <div class="prix">5200000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q2c.jpg" alt="">
+                    <h3>Audi Q2</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s3c.jpg" alt="">
+                    <h3>Audi S3</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q5c.jpg" alt="">
+                    <h3>Audi Q5</h3>
+                    <div class="prix">6000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s5c.jpg" alt="">
+                    <h3>Audi S5</h3>
+                    <div class="prix">6000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q7c.jpg" alt="">
+                    <h3>Audi Q7</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/q8c.jpg" alt="">
+                    <h3>Audi Q8</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s7c.jpg" alt="">
+                    <h3>Audi S7</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <img class="Q" src="/img6.jpg" alt="">
+
+    <section class="B" id="B">
+        <div class="heading1">
+
+        <h1 class="heading"><span class="a">Pièces de rechange</span></h1>
+
+        <div class="swiper A-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/alternateur.jpg" alt="">
+                    <h3>Alternateur</h3>
+                    <div class="prix">8000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/amortisseur.jpg" alt="">
+                    <h3>amortisseur</h3>
+                    <div class="prix">12000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/vanne.jpg" alt="">
+                    <h3>vanne EGR</h3>
+                    <div class="prix">5000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/filtreahuile.jpg" alt="">
+                    <h3>Filtre à huile</h3>
+                    <div class="prix">1500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/triangle.jpg" alt="">
+                    <h3>Triangle</h3>
+                    <div class="prix">7000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/biellete.jpg" alt="">
+                    <h3>Biellette de direction</h3>
+                    <div class="prix">3000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/courroie.jpg" alt="">
+                    <h3>Courroie de distribution</h3>
+                    <div class="prix">2000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/plaquette.jpg" alt="">
+                    <h3>Plaquette de frein</h3>
+                    <div class="prix">2500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/pompeeau.jpg" alt="">
+                    <h3>Pompe à eau</h3>
+                    <div class="prix">7000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="B" id="B">
+        <div class="heading1">
+
+        <!-- <h1 class="heading"><span class="a">La Gamme S</span></h1> -->
+
+        <div class="swiper A-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/demarreur.jpg" alt="">
+                    <h3>démarreur</h3>
+                    <div class="prix">14000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/tendeur.jpg" alt="">
+                    <h3>tendeur</h3>
+                    <div class="prix">8500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/kitdembryage.jpg" alt="">
+                    <h3>Kit d'embryage</h3>
+                    <div class="prix">6500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/cardan.jpg" alt="">
+                    <h3>cardan</h3>
+                    <div class="prix">6500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/filtreair.jpg" alt="">
+                    <h3>Filtre à air</h3>
+                    <div class="prix">2000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/rotile.jpg" alt="">
+                    <h3>rotule de direction</h3>
+                    <div class="prix">3500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/filtrecrbr.jpg" alt="">
+                    <h3>filtre à carburant</h3>
+                    <div class="prix">2500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/batterie.jpg" alt="">
+                    <h3>batterie</h3>
+                    <div class="prix">13000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img class="vec" src="/pieces/disque.jpg" alt="">
+                    <h3>disque de frein</h3>
+                    <div class="prix">5500da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div>
+
+            </div>
+
+                <!-- <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s3c.jpg" alt="">
+                    <h3>Audi S3</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div> -->
+
+                <!-- <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s4c.jpg" alt="">
+                    <h3>Audi S4</h3>
+                    <div class="prix">5200000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div> -->
+
+                <!-- <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s5c.jpg" alt="">
+                    <h3>Audi S5</h3>
+                    <div class="prix">6000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div> -->
+
+                <!-- <div class="swiper-slide box">
+                    <img class="vec" src="/voiture/s7c.jpg" alt="">
+                    <h3>Audi S7</h3>
+                    <div class="prix">4000000da</div>
+                    <a href="#" class="btn">voir plus</a>
+                </div> -->
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box2-container">
+
+            <div class="box2">
+                <h3>liens rapides</h3>
+                <a class="lie" href="#home" id="ac"> <i class="fas fa-arrow-right"></i> accueil</a>
+                <a class="lie" href="#vehicules" id="no"> <i class="fas fa-arrow-right"></i> nouveautés</a>
+                <a class="lie" href="#services"> <i class="fas fa-arrow-right"></i> services</a>
+                <a class="lie" href="#A" id="mo"> <i class="fas fa-arrow-right"></i> modèles</a>
+            </div>
+
+            <div class="box2">
+                <h3>contacts</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +213-21-964-365 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +213-793-879-194 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> audi_dz@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Chéraga, Alger, ALGERIE </a>
+            </div>
+
+            <div class="box2">
+                <h3>Avis Clients</h3>
+                <a class="lan" href="/Contactez-nous.html" data-reload> <i class="fas fa-arrow-right"></i> Laisser votre avis</a>
+            </div>
+
+            <div class="box2">
+                <h3>localisation</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.9235375130675!2d2.9290604147780637!
+                 3d36.748406378314215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fbaacf495e2d1%3A0x47734f06a8f3c5e5!
+                 2sSovac!5e0!3m2!1sfr!2sdz!4v1649774394838!5m2!1sfr!2sdz" style="border:0;" allowfullscreen="" 
+                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://fr-fr.facebook.com/AudiDZ/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/AudiOfficial" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/audiofficial/?hl=fr" class="fab fa-instagram"></a>
+            <a href="https://www.youtube.com/c/Audi" class="fab fa-youtube"></a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
